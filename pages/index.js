@@ -127,11 +127,11 @@ class Index extends React.Component {
               <Grid
                 container
                 justify={"space-evenly"}
-                spacing={32}
+                spacing={16}
                 className={classes.contentContainer}
               >
                 {projects.map((project, index) => (
-                  <Grid item xs={6} key={index}>
+                  <Grid item xs={4} key={index}>
                     <Card className={classes.card} key={project.id}>
                       <CardActionArea>
                         <CardContent>
