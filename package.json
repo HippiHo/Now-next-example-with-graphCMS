@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "build": "next build",
+    "dev": "next",
+    "now-build": "next build"
+  },
+  "dependencies": {
+    "next": "^8.0.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "@material-ui/core": "latest",
+    "jss": "latest",
+    "prop-types": "latest",
+    "react-jss": "^8.1.0",
+    "apollo-boost": "^0.1.16",
+    "graphql": "^14.0.2",
+    "isomorphic-unfetch": "^3.0.0",
+    "react-apollo": "^2.1.11"
+  }
+}
